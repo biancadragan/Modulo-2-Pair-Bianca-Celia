@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style: none;
+    padding: 20px;
+}
+
+.startBtn {
+    margin: 20px;
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px white;
+}
+
