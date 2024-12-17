@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
-  </head>
-  <body>
-    <header>
-      <h1>
-        Juego Piedra. Papel y Tijera
-      </h1>
-    </header>
-    <section>
-      <h2>Introduce aquí tu jugada</h2>
-      <form action="">
-        <select name="Papel" id=""></select>
-        <option value=""></option>
-        <select name="Piedra" id=""></select>
-        <select name="Tijera" id=""></select>
-      </form>
-      <button>¡Vamos a jugar!</button>
-    </section>
-    <section>
-      <p>Jugador</p>
-      <p>Computadora</p>
-    </section>
-    <script type="text/javascript" src="./main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      Juego Piedra. Papel y Tijera
+    </h1>
+  </header>
+  <section>
+    <h2>Introduce aquí tu jugada</h2>
+    <form class="form">
+      <select class="js_selectOption">
+        <option>Piedra</option>
+        <option>Papel</option>
+        <option>Tijera</option>
+      </select>
+    </form>
+    <button class="js_playBtn">Jugar</button>
+  </section>
+  <section>
+    <button class="js_letsPlayBtn">¡Vamos a jugar!</button>
+    <p class="userScore">Jugador</p>
+    <p class="computerScore">Computadora</p>
+    <p class="resultsText"></p>
+  </section>
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+
 </html>
